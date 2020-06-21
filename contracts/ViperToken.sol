@@ -7,8 +7,8 @@ pragma solidity 0.5.16;
 //import 'https://github.com/OpenZeppelin/openzeppelin-solidity/contracts/math/SafeMath.sol';
 
 
-contract ViperToken is ERC721Full {
-    using SafeMath for uint256;
+contract ViperToken is ERC721 {
+    //using SafeMath for uint256;
     // This struct will be used to represent one viper
     struct Viper {
         uint8 genes;
@@ -29,7 +29,7 @@ contract ViperToken is ERC721Full {
     );
 
     // Initializing an ERC-721 Token named 'Vipers' with a symbol 'VPR'
-    constructor() ERC721Full("Vipers", "VPR") public {
+    constructor() ERC721("Vipers", "VPR") public {
     }
 
     // Fallback function
