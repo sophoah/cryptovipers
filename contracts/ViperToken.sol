@@ -15,7 +15,7 @@ contract ViperToken is ERC721Full {
         uint256 matronId;
         uint256 sireId;
     }
-    
+ 
     // List of existing vipers
     Viper[] public vipers;
 
