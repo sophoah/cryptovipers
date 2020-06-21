@@ -2,9 +2,9 @@
 // We will be using Solidity version 0.5.3
 pragma solidity 0.5.16;
 // Importing OpenZeppelin's ERC-721 Implementation
-import 'https://github.com/OpenZeppelin/openzeppelin-solidity/contracts/token/ERC721/ERC721.sol';
+//import 'https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC721/ERC721.sol';
 // Importing OpenZeppelin's SafeMath Implementation
-import 'https://github.com/OpenZeppelin/openzeppelin-solidity/contracts/math/SafeMath.sol';
+//import 'https://github.com/OpenZeppelin/openzeppelin-solidity/contracts/math/SafeMath.sol';
 
 
 contract ViperToken is ERC721Full {
